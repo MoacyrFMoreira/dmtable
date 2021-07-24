@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block title %}Minha Mesa{% endblock title %}
+
+{% block content %}
+
+<div class="container my-3 table-responsive">
+    <h1 class="font-weight-bold">Minha Mesa</h1>
+    <h6 class="font-weight-light">Adicione os Personagens, selecione entre Aliado ou Inimigo e então, clique em atualizar Campanha</h6>
+    {% if game %}
+    <table class="table text-center">
+        <thead>
+            <tr class="bg-light">
+                <th scope="col">Personagem</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">Vitalidade</th>
+                <th scope="col">Fúria</th>
+                <th scope="col">Gnose</th>
+                <th scope="col">Força de Vontade</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in game %}
+            {% with character=item.char %}
+            <tr>
+                <td class="text-left">
+                    <a class="text-decoration-none" href="{{ character.get_absolute_url }}">{{ character.name }}</a>
+                </td>
+                <td class="align-middle">
+                    <form action="{% url 'gametable:update' character.id item.type %}" method="post">
+                        {% csrf_token %}
+                        {% if item.type == 1 %}
+                            <input class="btn btn-info" type="submit" value="Aliado">
+                        {% else %}
+                            <input class="btn btn-warning" type="submit" value="Inimigo">
+                        {% endif %}
+                    </form>
+                </td>
+                <td class="align-middle">{{ character.health }}</td>
+                <td class="align-middle">{{ character.rage }}</td>
+                <td class="align-middle">{{ character.gnosis }}</td>
+                <td class="align-middle">{{ character.willpower }}</td>
+                <td class="align-middle text-right">
+                    <form action="{% url 'gametable:remove' character.id %}" method="post">
+                        {% csrf_token %}
+                        <input class="btn btn-danger" type="submit" value="Remover">
+                    </form>
+                </td>
+            </tr>
+            {% endwith %}
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>Sem Personagens ainda no Jogo!</p>
+    {% endif %}
+    <p class="text-left">
+        <a class=" btn btn-primary" href="{% url 'chars:list' %}">Adicionar Personagens</a>
+    </p>
+    <p class="text-center">
+        <a class="btn btn-success {% if not game %}disabled{% endif %}" href="{% url 'gametable:create' %}">Atualizar Campanha</a>
+    </p>
+</div>
+{% endblock content %}

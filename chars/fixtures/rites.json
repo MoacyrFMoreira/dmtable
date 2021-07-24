@@ -1,0 +1,607 @@
+[
+	  {
+		"model": "chars.rites",
+		"pk": 1,
+		"fields": {
+			"name": "Purificacao",
+			"level": 1,
+			"type": 5,
+			"system": "Teste padrao (Depende do nivel da macula); Se realizado ao por do sol, -1 de dificuldad; Apenas um sucesso e necessario.",
+			"effect": "Purifica um local ou pessoa da macula da Wyrm"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 2,
+		"fields": {
+			"name": "Contricao",
+			"level": 1,
+			"type": 5,
+			"system": "Teste padrao (Furia do Espirito ou Garou); Quanto mais sucessos melhor o efeito",
+			"effect": "Pedido de desculpas a um espirito ou Garou"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 3,
+		"fields": {
+			"name": "Renuncia",
+			"level": 2,
+			"type": 5,
+			"system": "Teste padrao; Reinicia no novo Augurio como primeiro Posto, mas mantem seus Dons.",
+			"effect": "Escolhe um novo Augurio"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 4,
+		"fields": {
+			"name": "Matilha Leal",
+			"level": 3,
+			"type": 5,
+			"system": "Carisma+Rituais (9-Lideranca do Alpha); Toda matilha recebe 2 de F. Vontade por sessao enquanto o Alpha estiver agindo pelos interesses da Matilha",
+			"effect": "Une a Matilha sobre o Alpha"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 5,
+		"fields": {
+			"name": "Encantar a Floresta",
+			"level": 4,
+			"type": 5,
+			"system": "Teste padrao; Dura um ano; Se a area estiver a pelo menos 8Km do Caern, reduz a dificulade em 1",
+			"effect": "Mantem uma area \"viva\" e \"mal-assombrada"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 6,
+		"fields": {
+			"name": "Ceu Aberto",
+			"level": 4,
+			"type": 5,
+			"system": "Teste padrao; Se feito ao por do sol, -1 de Dificuldade. 1 de Gnose + 2 adicional por 1 de cura de dano agravado em todos no Caern",
+			"effect": "Danca da Chuva purifica e cura o Caern"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 7,
+		"fields": {
+			"name": "Assembleia",
+			"level": 1,
+			"type": 2,
+			"system": "Teste padrao; 5 de Gnose por nivel do Caern deve ser doado",
+			"effect": "Abertura da Assembleia pelo Mestre do Uivo"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 8,
+		"fields": {
+			"name": "Abertura de Caern",
+			"level": 1,
+			"type": 2,
+			"system": "Teste Resistido de Raciocinio+Rituais (7) ate Nv do Caern contra Nv do Caern (Gnose do M. de Rituais) ate F. Vontade do M. Rituais. Falha recebe dano",
+			"effect": "Recebe os Bonus do Caern por sucesso"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 9,
+		"fields": {
+			"name": "Passado Glorioso",
+			"level": 3,
+			"type": 2,
+			"system": "Inteligencia+Rituais(9-Ancestrais). Se bem sucedido todos recebem 1 de ancestrais por 1 dia e o proximo ritual realizado no Caern recebe -1 de dficuldade",
+			"effect": "Reconta a historia do Caern"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 10,
+		"fields": {
+			"name": "A Toca do Texugo",
+			"level": 4,
+			"type": 2,
+			"system": "Percepcao+Rituais(Tabela); Cada sucesso determina que o Mestre de Rituais ou o Vigia possam fazer uma pergunta especifica sobre a area.",
+			"effect": "e possivel ver qualquer coisa que ocorreu no Caern"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 11,
+		"fields": {
+			"name": "Abertura de Ponte",
+			"level": 4,
+			"type": 2,
+			"system": "Raciocinio+Enigmas(8-Nv do Caern-3 se o totem for o mesmo); Depois pode-se abrir a ponto com Dom de Ragabash ou o Ritual de Abertura do Caern",
+			"effect": "Cria uma ponte da lua entre Caerns por um 13 luas"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 12,
+		"fields": {
+			"name": "Ravina Encoberta",
+			"level": 4,
+			"type": 2,
+			"system": "Teste padrao (nivel da pelicula + 4). Necessario gastar 10 de Gnose para tornar o efeito permanente",
+			"effect": "Esconde o Caern no mundo espiritual"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 13,
+		"fields": {
+			"name": "Criacao de Caern",
+			"level": 5,
+			"type": 2,
+			"system": "Raciocinio+Rituais(8-1 p/cd 5 Participantes alem dos 13 necessarios); 100 de Gnose ou 1 de dano agravado para 3; detalhes na pag. 208",
+			"effect": "Fundacao de um Caern"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 14,
+		"fields": {
+			"name": "Cerimonia pelos Falecidos",
+			"level": 1,
+			"type": 4,
+			"system": "Teste padrao; De acordo com o Narrador, pode ser mais facil contactar os Ancestrais",
+			"effect": "Uma homenagem aos Mortos protegendo Gaia"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 15,
+		"fields": {
+			"name": "ultima Bencao",
+			"level": 1,
+			"type": 4,
+			"system": "Teste padrao; Gasto de um de Gnose; Precisa ser executado em ate uma hora.",
+			"effect": "Mantem um Impuro morto em Hominideo ou Lupino"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 16,
+		"fields": {
+			"name": "Lobo do Inverno",
+			"level": 3,
+			"type": 4,
+			"system": "Teste padrao; Realizado � Noite sobre a Lua do Augurio do Garou partindo; Ao menos 3 Garou presentes necessarios",
+			"effect": "O Garou se aposenta sacrificando sua Vida"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 17,
+		"fields": {
+			"name": "Batismo de Fogo",
+			"level": 1,
+			"type": 3,
+			"system": "Carisma+Rituais (6); Um sucesso e o suficiente, mas mais sucessos determina maior eficiencia do campeador de Parentes",
+			"effect": "Verifica se um recem nascido e Garou ou nao"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 18,
+		"fields": {
+			"name": "Compromisso",
+			"level": 1,
+			"type": 3,
+			"system": "F. de Vontade (Gnose do espirito - Qtd de Gnose gasta); Ao menos um de Gnose deve ser gasto; Cada sucesso aprisiona o espirito por uma semana",
+			"effect": "Aprisiona um espirito em um amuleto"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 19,
+		"fields": {
+			"name": "Crescimento",
+			"level": 1,
+			"type": 3,
+			"system": "Raciocinio+Rituais(dificuldade depende do tipo de solo - entre 5 e 9); Cada sucesso garante a sobrevivencia da planta por 1 mes;",
+			"effect": "Plantas crescem em qualquer lugar"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 20,
+		"fields": {
+			"name": "Heranca",
+			"level": 1,
+			"type": 3,
+			"system": "Teste padrao; Para cada sucesso e determinado exatamente uma geracao do Garou, humano ou lobo;",
+			"effect": "Determina a linnhagem do Garou"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 21,
+		"fields": {
+			"name": "Palacio de Papelao",
+			"level": 1,
+			"type": 3,
+			"system": "Inteligencia+Sobrevivencia(6);Dura um dia por sucesso; Se gastar 1 de Gnose, todos que dormirem podem rolar Vigor e 3 sucessos curam 1 de dano agravado",
+			"effect": "Qualquer lugar e uma casa aquecida e a prova d'agua"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 22,
+		"fields": {
+			"name": "Pedra Cacadora",
+			"level": 1,
+			"type": 3,
+			"system": "Teste padrao; Se possuir um item pessoal do alvo, reduz a dificuldade em 1; Nao da a localizacao exata, apenas uma nocao da direcao.",
+			"effect": "Encontra uma pessoa. e preciso saber seu nome."
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 23,
+		"fields": {
+			"name": "Dedicacao ao Talisma",
+			"level": 1,
+			"type": 3,
+			"system": "Teste padrao; Gasto de 1 de Gnose; Nao pode possuir mais objetos dedicados do que a Gnose;",
+			"effect": "Atrela um item espiritualmente ao Garou"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 24,
+		"fields": {
+			"name": "Iniciacao",
+			"level": 2,
+			"type": 3,
+			"system": "Teste padrao; Um objeto ritualistico e feito para guiar o Garou. Se for perdido, o Garou recebe um de dano agravado e corre o risco de ficar perdido para sempre",
+			"effect": "Viaja para a Umbra Profunda"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 25,
+		"fields": {
+			"name": "Despertar Espiritos",
+			"level": 2,
+			"type": 3,
+			"system": "Teste padrao (Furia do Espirito); Despertar um espirito nao o da comando sobre ele.",
+			"effect": "Desperta um espirito adormecido"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 26,
+		"fields": {
+			"name": "Conjuracao",
+			"level": 2,
+			"type": 3,
+			"system": "1 - Teste de romper a pelicula; 2 - Testa Gnose de acordo com a Tabela; para cada 1 hora gasta, pode reduzir a dificuldade em 1, ate o minimo 3.",
+			"effect": "Conjura um espirito para que va ate o Garou"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 27,
+		"fields": {
+			"name": "Descida ao Mundo inferior",
+			"level": 3,
+			"type": 3,
+			"system": "Inteligencia+Ocultismo(Pelicula local); Requer 5 minutos; Para cada sucesso e possivel levar uma pessoa; As de maior Gnose vao primeiro",
+			"effect": "Viaja para o Submundo, o mundo dos mortos"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 28,
+		"fields": {
+			"name": "Feitiche",
+			"level": 3,
+			"type": 3,
+			"system": "Raciocinio+Rituais(10-2 por Gnose permanente); O narrador pode reduzir a dificuldade de acordo com a execucao; Necessario 3 noites purificando.",
+			"effect": "Cria um Feitiche"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 29,
+		"fields": {
+			"name": "Totem",
+			"level": 3,
+			"type": 3,
+			"system": "Teste padrao; Necessario pontos no Antecedente",
+			"effect": "Une o Totem � Matilha"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 30,
+		"fields": {
+			"name": "Gralha",
+			"level": 1,
+			"type": 7,
+			"system": "Manipulacao+Manha(7); Para cada sucesso, sofre os efeitos do ritual por 1 dia; Ritual e realizado em um Garou que quebrou uma promessa de segredo",
+			"effect": "O alvo vai contar detalhes constrangedores dele mesmo"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 31,
+		"fields": {
+			"name": "Ostracismo",
+			"level": 2,
+			"type": 7,
+			"system": "Teste padrao; Dura por uma fase da lua, mas crimes mais graves podem durar mais de acordo com o lider da Tribo/Seita ou ate ser permanente",
+			"effect": "O alvo e banido de sua tribo, seita ou matilha"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 32,
+		"fields": {
+			"name": "Pedra do Escarnio",
+			"level": 2,
+			"type": 7,
+			"system": "Teste padrao. Dura uma noite",
+			"effect": "O Garou carrega um pedra com simbolos de vergonha"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 33,
+		"fields": {
+			"name": "Voz do Chacal",
+			"level": 2,
+			"type": 7,
+			"system": "Teste padrao. Permanente ou ate que o M. de Rituais extingua. -2 em todos os testes sociais alem do renome",
+			"effect": "O alvo fala como um chacal com voz anasalada"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 34,
+		"fields": {
+			"name": "A Cacada",
+			"level": 3,
+			"type": 7,
+			"system": "Teste padrao; Realizado em quem cometeu um crime grave, mas ainda possui um pouco de honra.",
+			"effect": "O alvo e cacado por uma matilha de caca"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 35,
+		"fields": {
+			"name": "Lobo omega",
+			"level": 3,
+			"type": 7,
+			"system": "Teste padrao; Realizado em um Alpha que falhou com sua matilha",
+			"effect": "O Alpha e humilhado e perde a lideranca"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 36,
+		"fields": {
+			"name": "Satirico",
+			"level": 3,
+			"type": 7,
+			"system": "Teste padrao (Posto do alvo +4); Perde um posto",
+			"effect": "Versao mais dura da pedra do escarnio"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 37,
+		"fields": {
+			"name": "Laceracao do Veu",
+			"level": 4,
+			"type": 7,
+			"system": "Teste padrao; Nao e considerado rasgar o veu. O Humando ve e lembra dos Garou enquanto sofre uma cacada, que pode ou nao ser fatal",
+			"effect": "Um castigo contra um humano que ofendeu os Garou"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 38,
+		"fields": {
+			"name": "Dentes Vingativos de Gaia",
+			"level": 5,
+			"type": 7,
+			"system": "Teste padrao; Resulta na morte do traidor",
+			"effect": "Realizado contra um traidor. A Pior das punicoes"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 39,
+		"fields": {
+			"name": "Vangloria",
+			"level": 1,
+			"type": 8,
+			"system": "Teste padrao (difiuclade pode aumentar de acordo com o tamanho do feito); Se for feito, ganha 1 de gloria a mais. Se quiser ser feito para a matilha, +1 dif.",
+			"effect": "Se vangloria de um ato antes de faze-lo e faz"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 40,
+		"fields": {
+			"name": "Ferimento",
+			"level": 1,
+			"type": 8,
+			"system": "Teste padrao; Recebe 2 pontos de Gloria",
+			"effect": "Celebra a primeira cicatriz de batalha"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 41,
+		"fields": {
+			"name": "Conquista",
+			"level": 2,
+			"type": 8,
+			"system": "Teste padrao (4 ou 6 se alguem contestar o ritual, neste caso, o alvo precisa testar furia e nao entrar em frenesi)",
+			"effect": "Transforma renome temporario em permanente"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 42,
+		"fields": {
+			"name": "Passagem",
+			"level": 2,
+			"type": 8,
+			"system": "Teste padrao; O Garou precisa executar um feito.",
+			"effect": "Realizado quando um filhote se torna um Cliath"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 43,
+		"fields": {
+			"name": "Elogiar",
+			"level": 2,
+			"type": 8,
+			"system": "Carisma+Rituais(6); O Garou pode receber presentes e recebe 1 dado extra em todos os testes sociais",
+			"effect": "Realizado apos um grande feito para a nacao Garou"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 44,
+		"fields": {
+			"name": "Ventos Frios",
+			"level": 2,
+			"type": 6,
+			"system": "Sem efeito",
+			"effect": "Realizado na noite mais longa do ano"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 45,
+		"fields": {
+			"name": "Novo Despertar",
+			"level": 2,
+			"type": 6,
+			"system": "Sem efeito",
+			"effect": "Celebra o equinocio da Primavera"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 46,
+		"fields": {
+			"name": "A Grande Cacada",
+			"level": 2,
+			"type": 6,
+			"system": "Se for bem sucedida podem receber ate 3 pontos de Gloria",
+			"effect": "Realizam uma cacada no Solsticio de Verao"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 47,
+		"fields": {
+			"name": "A Longa Vigilia",
+			"level": 3,
+			"type": 6,
+			"system": "Sem efeito",
+			"effect": "Celebra o equinocio de Outono"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 48,
+		"fields": {
+			"name": "Ritmos osseos",
+			"level": 0,
+			"type": 1,
+			"system": "Precisa realizar o ritual 3 dias seguidos; Tem um dado em qualquer teste na Umbra que depois de gasto precisa executar o ritual novamente",
+			"effect": "Faz um batuque e Honra o Totem"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 49,
+		"fields": {
+			"name": "Halito de Gaia",
+			"level": 0,
+			"type": 1,
+			"system": "Reduz a dificuldade de todos os testes de cura em 2",
+			"effect": "Realiza uma respiracao toda manha por um ciclo lunar"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 50,
+		"fields": {
+			"name": "Saudacao a Lua",
+			"level": 0,
+			"type": 1,
+			"system": "Se executado por uma fase da lua, reduz a dificuldade em 1 em todos os testes sociais com os Garou daquele Augurio ate a proxima fase da lua",
+			"effect": "Entoa um uivo para cada aparicao da Lua"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 51,
+		"fields": {
+			"name": "Saudacao ao Sol",
+			"level": 0,
+			"type": 1,
+			"system": "Se executado por 9 nasceres do sol concecutivos, adiciona um dado em todos os testes de Sentir a Wyrm ou macula da Wyrm",
+			"effect": "Entoa um cantigo para cada nascer do Sol"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 52,
+		"fields": {
+			"name": "Oracao pela Presa",
+			"level": 0,
+			"type": 1,
+			"system": "Se executar o ritual para todas as criaturas de Gaia que matar por um ciclo lunar, diminui a dificuldade em testes com espiritos da natureza em 1",
+			"effect": "Vai para a Umbra e agradece a Gaia pela Caca"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 53,
+		"fields": {
+			"name": "Oracao da Cacada",
+			"level": 0,
+			"type": 1,
+			"system": "Se fizer o ritual por 3 meses lunares, recebe um dado adicional para todos os testes de caca",
+			"effect": "Faz uma oracao � Gaia antes de uma Caca"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 54,
+		"fields": {
+			"name": "Preservar o Feitiche",
+			"level": 1,
+			"type": 3,
+			"system": "Raciocinio+Rituais(8); Se executado ao menos uma vez por mes pode melhorar os efeitos ou reduzir a dificuldade do Feitiche",
+			"effect": "Honra e preserva o espirito de um Feitiche"
+		}
+	  },
+	  {
+		"model": "chars.rites",
+		"pk": 55,
+		"fields": {
+			"name": "Olhos do Rebannho",
+			"level": 2,
+			"type": 3,
+			"system": "Percepcao + Enigmas (9 - 1 p cada 2 participantes). Os participantes compartilham do efeito. Distancia = Gnose em Milhas",
+			"effect": "Pode enxergar atraves dos olhos de outros passaros"
+		}
+	  }
+]

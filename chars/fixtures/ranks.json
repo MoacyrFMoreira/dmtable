@@ -1,0 +1,47 @@
+[
+    {
+        "model": "chars.rank",
+        "pk": 1,
+        "fields": {
+            "rank": "Cliath",
+            "initial_gift": 3,
+            "bonus": 25
+        }
+    },
+    {
+        "model": "chars.rank",
+        "pk": 2,
+        "fields": {
+            "rank": "Fostern",
+            "initial_gift": 5,
+            "bonus": 60
+        }
+    },
+    {
+        "model": "chars.rank",
+        "pk": 3,
+        "fields": {
+            "rank": "Adren",
+            "initial_gift": 8,
+            "bonus": 100
+        }
+    },
+    {
+        "model": "chars.rank",
+        "pk": 4,
+        "fields": {
+            "rank": "Athro",
+            "initial_gift": 12,
+            "bonus": 200
+        }
+    },
+    {
+        "model": "chars.rank",
+        "pk": 5,
+        "fields": {
+            "rank": "Ancião",
+            "initial_gift": 17,
+            "bonus": 300
+        }
+    }
+]

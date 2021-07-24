@@ -1,0 +1,308 @@
+[
+    {
+        "model": "chars.archetype",
+        "pk": 1,
+        "fields": {
+            "name": "Alfa",
+            "description": "The Alpha wants to be in charge. He demands respect and obedience, even submission. He may convince himself that he wants power for the greater good, or he may simply believe it is his natural birthright. Many leaders, from the streets to the boardroom, exemplify the Alpha Archetype. This Archetype is common among werewolves, from those who consider themselves the best choice for pack leader to those who attempt to rise to command septs or even tribes.",
+            "willpower_condition": "Regain a point of Willpower when you achieve control over a group or organization involving other individuals, or when you are able to force a rival to submit to your authority."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 2,
+        "fields": {
+            "name": "Arquiteto",
+            "description": "The Architect wants to build things, to improve the world around her, and to make things of lasting value for others. Inventors, pioneers, town founders, entrepreneurs and the like reflect the Architect’s goals. Garou Architects may want to build septs, forge caerns, or broker peace between feuding factions.",
+            "willpower_condition": "Regain a point of Willpower whenever you establish something of importance or lasting value."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 3,
+        "fields": {
+            "name": "Negociador",
+            "description": "The art of the deal is the art of life. The Barterer Archetype exults in getting something potent for a low price, and takes personal pride in being savvy enough to avoid bad deals and capitalize on good ones. For werewolves, this Archetype is most common among Theurges and others who broker deals with the spirit world, where the dance of chiminage and patronage is so significant.",
+            "willpower_condition": "Regain a point of Willpower whenever you gain a significant commodity at a good price: this must be something potent akin to a fetish or a favor, not simply sniping an online auction for a bauble."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 4,
+        "fields": {
+            "name": "Lobo Mau",
+            "description": "The Big Bad Wolf craves fear. Not her own: the fear of others. She may delight in stalking humans, intimidating other Garou, or using fear as a weapon against the forces of the Wyrm. This Archetype is popular among Ragabash as well as Ahroun, and finds a home in most tribes, from the slasher urban legends of the Bone Gnawers to the righteous avengers of the Red Talons.",
+            "willpower_condition": "Regain a point of Willpower whenever someone recoils from you in horror or otherwise reacts in fear."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 5,
+        "fields": {
+            "name": "Bon Vivant",
+            "description": "Life is short, and it’s bound to end poorly. The Bon Vivant is one who plans to make the best of it. The Bon Vivant isn’t necessarily irresponsible: simply predisposed to having a good time along the way. Most Bon Vivant Garou are homids given to the pursuit of pleasure that Western culture exalts.",
+            "willpower_condition": "Regain a point of Willpower whenever you truly enjoy yourself and can fully express your exultation. At the Storyteller’s option, a particularly fabulous revel may yield multiple Willpower points."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 6,
+        "fields": {
+            "name": "Valentão",
+            "description": "The Bravo is a bully and a brute who derives pleasure from exerting power over those weaker than himself. Might makes right, and power is its own justification. He may favor physical power, social intimidation, or even mystical threats, though physical power is naturally the most popular approach. Werewolf Bravos are prone to bare their teeth at a moment’s notice, and are frequently dismissive or even abusive of ordinary humans.",
+            "willpower_condition": "Regain a point of Willpower any time you achieve your agenda through brutishness or intimidation. This need not be physical, as many Bravos verbally or socially cow their victims."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 7,
+        "fields": {
+            "name": "Samaritano",
+            "description": "The Caregiver takes her comfort in consoling others or assisting them with their problems. Healing the wounded and lending strength to the weak is the source of the Caregiver’s resolve. Werewolf Caregivers often have strong Kinfolk ties, and draw motivation from the nurturing ideal of the Earth Mother.",
+            "willpower_condition": "Regain a point of Willpower whenever you successfully protect or nurture someone else."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 8,
+        "fields": {
+            "name": "Celebrante",
+            "description": "The Celebrant has a cause, and she follows it not from grim necessity but from exuberant enthusiasm. Her passion may be battle, art, the game of politics, or any other endeavor that grants her sufficient strength to carry on. The enthusiasm of Garou Celebrants is all the more valuable in the face of the war against the Wyrm; the Archetype is popular among Galliards, and Galliards of other Archetypes love to stir up a Celebrant as well.",
+            "willpower_condition": "Regain a point of Willpower whenever you pursue your cause or convert another character to the same passion. Conversely, lose a point of temporary Willpower whenever you are denied your passion or it is painfully lost to you."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 9,
+        "fields": {
+            "name": "Competidor",
+            "description": "The Competitor devotes himself to the pursuit of victory. He may be a gambler by nature, or he may seek out challenges that must be overcome by discipline and skill. Every interaction is an opportunity for him to excel. Werewolves with this Archetype may pursue their goals in politics, in battle, or in other arenas. A Garou Competitor takes Renown very seriously.",
+            "willpower_condition": "Regain one point of Willpower whenever you succeed at a test or challenge. Note that a test or challenge is more than just a dice roll; it’s an entire dramatic situation. Especially difficult victories may, at the Storyteller’s discretion, allow you to regain multiple Willpower points."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 10,
+        "fields": {
+            "name": "Conformista",
+            "description": "The Conformist prefers not to take charge, instead seeking security in letting others give orders that she can follow. The Conformist may be the “beta” or middle manager to the most dynamic personality in a social setting, or she may prefer to follow along with her pack, right or wrong. This isn’t necessarily a weak Archetype; it can simply represent a desire to play a support role. Examples of Garou Conformists include tribal loyalists and packmates who enforce the pack leader’s role.",
+            "willpower_condition": "Regain a point of Willpower whenever the group or your supported leader achieves a goal due to your support."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 11,
+        "fields": {
+            "name": "Esperto",
+            "description": "The Conniver prefers deceit and misdirection to hard work and open confrontation. He may be an outright thief and swindler, or he might be a manipulator hoping to influence those in charge to achieving his goals for them. The Shadow Lords have a reputation for having Connivers among their tribe, but any tribe has its share of werewolves willing to play a more subtle game.",
+            "willpower_condition": "Regain a point of Willpower whenever you trick someone into doing something for you, or when you convince someone to help you against their own best interests."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 12,
+        "fields": {
+            "name": "Do Contra",
+            "description": "The Contrary has an innate need to go against the grain and to challenge established social conventions or even laws. Some have a penchant for bizarre behavior such as you’d expect from an eccentric celebrity; others are outright heretics. Many Ragabash play the contrary in a traditional form, defying conventional laws as a way of challenging their relevance.",
+            "willpower_condition": "Regain a point of Willpower any time you are able to flout social mores without retribution."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 13,
+        "fields": {
+            "name": "Filhote",
+            "description": "The Cub isn’t ready to take responsibility. He’s still immature, perhaps innocent, and tries to depend on others for protection and nurturing. Werewolves rarely keep the Cub Archetype for long — it tends to be stripped away by the vicious realities of their constant struggle. Still, some find themselves defaulting back to earlier behavior as a plea for help.",
+            "willpower_condition": "Regain a point of Willpower whenever you manage to convince someone to to nurture you, or to help you with no gain to herself."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 14,
+        "fields": {
+            "name": "Diretor",
+            "description": "The Director is related to the Alpha Archetype. Whereas the Alpha is focused on command as a means, the Director is more concerned with the ends. She wants to turn chaos into order and to forge groups into well-oiled machines. In Garou society, Directors usually do their best to work their way into sept offices so that they can better orchestrate cooperation among their charges.",
+            "willpower_condition": "Regain a point of Willpower when you influence or aid a group or influential individual in the completion of a difficult task."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 15,
+        "fields": {
+            "name": "Fanático",
+            "description": "The Fanatic’s purpose consumes his existence. Nothing is as important as the higher goal, and frequently the end justifies all manner of means. Players who choose Fanatic Archetypes must select a cause for their characters to further. The Garou Nation has a long history of fanaticism, usually focusing on some particular aspect of the war against the Wyrm, such as bringing down the Black Spiral Dancers or unifying the tribes under one leader.",
+            "willpower_condition": "Regain a point of Willpower whenever you accomplish some task that directly relates to your cause."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 16,
+        "fields": {
+            "name": "Ranzinza",
+            "description": "The Fatalist is relentlessly cynical and pessimistic, always concerned with the cloud rather than the silver lining. He may have once been idealistic, but he has lost those ideals after bitter experience. Many Garou are Fatalists, driven by an unhealthy focus on the inevitable decline of their kind and the looming doom of Apocalypse.",
+            "willpower_condition": "Regain a point of Willpower whenever someone does something specific and negative, just like you said they would. You must predict and quantify this failure aloud, such as by warning, “This spirit isn’t going to cooperate,” or “You can’t trust that Glass Walker. He’s got no love for us.” You may simply whisper your prophecy of grief to the Storyteller if you wish, instead of announcing it to the whole troupe."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 17,
+        "fields": {
+            "name": "Galante",
+            "description": "The Gallant wants to be the center of attention. She basks in the attentive praise of others, though she may be perfectly happy drawing their scorn as well. As long as she’s on center stage, it’s all good. Many Galliards and Fianna are drawn to this archetype.",
+            "willpower_condition": "Regain a Willpower point whenever you successfully impress another person. Ultimately, the Storyteller is the arbiter of how much you dazzle someone, even in the case of other players’ characters."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 18,
+        "fields": {
+            "name": "Guru",
+            "description": "The Guru is a spiritual counselor, one who seeks wisdom for the purpose of passing it on. She values metaphysical insight highly, searching for her own enlightenment even as she attempts to bring others further along their own paths. The Guru’s path may be peaceful, as with a Child of Gaia or Stargazer, but it may also be a blood-soaked spiritual road leading to Valhalla.",
+            "willpower_condition": "Regain a point of Willpower whenever someone seeks out your help in spiritual matters and your guidance moves that individual to an enlightened action that he normally would not have taken. Also, regain a point of Willpower whenever you achieve an epiphany that relates to your personal philosophy."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 19,
+        "fields": {
+            "name": "Idealista",
+            "description": "The Idealist believes in a higher goal or morality. The object of his idealism may vary, from a specific code of honor to a noble ambition to a simple benevolent philosophy. Some Idealists are naïve or foolish, while others are inspiring leaders, able to stir the hearts of other werewolves with the justness of their cause. Many Garou Idealists have beliefs highly influenced by those of their tribe.",
+            "willpower_condition": "Regain a point of Willpower any time an action in pursuit of your ideals furthers your goals and brings your vision closer to fruition."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 20,
+        "fields": {
+            "name": "Juiz",
+            "description": "The Judge favors rationality, and likes nothing better than weighing a situation and finding the correct decision. This Archetype is typically conservative, as its mentality runs counter to reactionary behavior. Philodox naturally are expected to play the Judge as part of their role in Garou society; whether or not it is in their very nature is largely irrelevant.",
+            "willpower_condition": "Regain a point of Willpower whenever you correctly solve a problem by considering the evidence presented, or when one of your arguments unites dissenting parties."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 21,
+        "fields": {
+            "name": "Lobo Solitário",
+            "description": "The Loner needs solitude. He may be part of a pack and a loyal soldier of the sept, but social behavior fatigues him. He needs time alone in order to recharge his batteries. This is a difficult Archetype for Garou to deal with, as it is at odds with their inborn desires to be part of a tightly-knit pack. It’s not a commonly seen Archetype among werewolves.",
+            "willpower_condition": "Regain a point of Willpower when you accomplish something by yourself, yet which still benefits the coterie in some way."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 22,
+        "fields": {
+            "name": "Mártir",
+            "description": "The Martyr is at her strongest when forged in a crucible of suffering. It’s not necessarily masochism that drives her on this path; it may be a desire for attention, or a profound belief in the virtue of self-sacrifice. Garou society has a tendency to romanticize the heroic last stand of a Martyr, and as dangerous as the war is, following this Archetype’s path can quickly lead to the heroic end the Martyr may crave.",
+            "willpower_condition": "Regain a point of Willpower when you suffer some amount of damage or loss of a definable resource for the sake of your ideals or for another’s immediate gain."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 23,
+        "fields": {
+            "name": "Pedagogo",
+            "description": "The Pedagogue wants to share his knowledge, which he certainly believes to be extensive. Some Pedagogues may be overbearing blowhards who want to be admired for their wisdom, while others may be scarred mentors who want to see their pupils excel. They often try for sept offices, where they have the benefit of many listeners and the authority to compel attention.",
+            "willpower_condition": "Regain one point of Willpower whenever you see or learn of someone who has benefited from the wisdom you shared with them."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 24,
+        "fields": {
+            "name": "Penitente",
+            "description": "The Penitent has something to atone for: dark deeds in her past, an unfortunate accident, or even her own existence. Her self-esteem is usually very low, though the reasons she condemns herself vary. Among werewolves, the Penitent Archetype might be seen among metis, cubs with particularly traumatic First Changes, warriors unfortunate enough to have fallen into the Thrall of the Wyrm, and even those who have renounced their former tribe or auspice for dark reasons.",
+            "willpower_condition": "Regain a point of Willpower whenever you feel that you have achieved absolution for a given grievance. This redemption should be of the same magnitude as the transgression — the greater the crime, the greater the penance. The Storyteller is the ultimate arbiter of what constitutes a reasonable act of reparation."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 25,
+        "fields": {
+            "name": "Perfeccionista",
+            "description": "The Perfectionist is committed to getting things right. She holds herself and her colleagues to an exacting standard. Having a Perfectionist in a pack can drive the pack to accomplish great things, if she has the skill to inspire. Galliards and Philodox are particularly prone to this Archetype, as are no few Silver Fangs.",
+            "willpower_condition": "Regain a point of Willpower whenever you accomplish your goal without any demonstrable flaw or impediment, and regain a Willpower point whenever you motivate another character to succeed as a result of your own shining example."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 26,
+        "fields": {
+            "name": "Rebelde",
+            "description": "The Rebel has issues with authority, usually one particular authority. It may be revenge or idealism that drives him, but he simply can’t obey bad orders — and he’s the one who decides what “bad orders” entail. Most Rebel werewolves are still young, as consistently defying one’s elders is something that one tends to outgrow… or have beaten out. It’s all too easy for a Rebel to come to a bad end when unity is the thing the Garou Nation needs most.",
+            "willpower_condition": "Regain a point of Willpower whenever your actions adversely affect your chosen opposition. The player should choose whom or what his character rebels against when he adopts this Archetype. Storytellers should take rebellion against “all authority” with a grain of salt, and apply the Willpower reward for such a broad concept to only greater and greater actions of insurgency."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 27,
+        "fields": {
+            "name": "Vigarista",
+            "description": "The Rogue’s sense of self-interest is paramount. She might be a thug or a bully, or she might just be a powerful individualist or have a strong belief in self-sufficiency. Sacrifice is a sucker’s game to her. As with other primarily self-centered Archetypes, the Rogue frequently has trouble excelling in the exceptionally cooperative environment of Garou society. It’s hard to keep your self-interest hidden from your pack, and few things weaken pack bonds more than the knowledge that your packmate believes in all for one, and one also for that one.",
+            "willpower_condition": "Regain a point of Willpower when your self-centered disposition leads you to profit, materially or otherwise. In addition, you may regain a point of Willpower when your efforts benefit the group to which you belong, as long as that benefit comes at the expense of another group."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 28,
+        "fields": {
+            "name": "Cientista",
+            "description": "The Scientist Archetype isn’t necessarily obsessed with literal science — rather, this represents the desire to understand. A Scientist looks for patterns at play around her, and wants to see how things follow from a logical sequence of events. She’s interested in the systems that govern the world. Among the Garou, the Scientist may be found anywhere from techno-savvy Glass Walker information junkies to Uktena Theurges fascinated with unraveling the enigmas of the spirit world.",
+            "willpower_condition": "Regain Willpower any time a logical, systematic approach to a problem helps you solve it, or information gathered logically is of use in another, similar situation."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 29,
+        "fields": {
+            "name": "Soldado",
+            "description": "The Soldier excels in situations where there are clear objectives and procedures. This Archetype is something of a more goal-oriented Conformist, and a natural complement to a Director. He works well in social situations as long as everyone else in his group is also willing to play their part. Many veteran werewolves have something of the Soldier within them, for this mentality is unquestionably useful for pack activity and the ongoing war.",
+            "willpower_condition": "Regain a point of Willpower when you achieve your orders’ objectives. The more difficult the orders are to fulfill, the better it feels to accomplish them. At Storyteller discretion, pulling off a spectacular success or fulfilling a lengthy mission may well be worth additional Willpower points."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 30,
+        "fields": {
+            "name": "Sobrevivente",
+            "description": "The direct opposite of the Fatalist or Martyr, the Survivor never concedes defeat. No matter what else happens, she who survives always has more of a chance at achieving her goals the next day. Survivors may be unpopular voices in the Garou Nation, criticizing the ideals of noble sacrifice and fighting a losing war. However, they can also be inspirational, refusing to succumb to despair or accept what others consider inevitable.",
+            "willpower_condition": "Regain one point of Willpower whenever you survive a threatening situation through tenacity, or when your counsel causes someone else to persist in spite of opposition."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 31,
+        "fields": {
+            "name": "Temerário",
+            "description": "The Thrill-Seeker loves to gamble with his life. This Archetype doesn’t indicate a death wish, but rather the stimulation of high risk and adrenaline. Werewolf Thrill-Seekers never have to worry about running out of opportunities to indulge their vice.",
+            "willpower_condition": "Regain a point of Willpower any time you succeed at a dangerous task that you have deliberately undertaken.APPENDIX 491 Thrill-Seekers are not stupid, however, and the Storyteller may choose not to reward a player who heedlessly sends her character into danger for the sole intent of harvesting Willpower."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 32,
+        "fields": {
+            "name": "Tradicionalista",
+            "description": "The old ways are best, says the Traditionalist. She upholds the laws of the ancestors, and is quick to point out where a rule has always worked in the past. She’s not very fond of change, even if it might turn out for the better. The Garou Nation is replete with Traditionalists, though the traditions they uphold can vary quite widely from tribe to tribe.",
+            "willpower_condition": "Regain a point of Willpower any time the proven ways turn out to be the best. Also, regain a point of Willpower any time you adhere to one of your previously espoused positions and it proves to be a wise course of action."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 33,
+        "fields": {
+            "name": "Brincalhão",
+            "description": "Life is grim and short. The Trickster argues that it’s a better response to laugh than it is to cry. Some Tricksters use humor to escape confrontation, while others are compassionate souls who work to lessen their friends’ burden with laughter. This archetype is classically Ragabash, and key to the Bone Gnawer tribal spirit.",
+            "willpower_condition": "Life is grim and short. The Trickster argues that it’s a better response to laugh than it is to cry. Some Tricksters use humor to escape confrontation, while others are compassionate souls who work to lessen their friends’ burden with laughter. This archetype is classically Ragabash, and key to the Bone Gnawer tribal spirit."
+        }
+    },
+    {
+        "model": "chars.archetype",
+        "pk": 34,
+        "fields": {
+            "name": "Visionário",
+            "description": "The Visionary keeps her eyes on a goal that others might find impossible. Like the Idealist or Fanatic, her cause is important to her. Unlike those Archetypes, the Visionary focuses principally on sharing the dream with others. Visionaries frequently face dismissal as foolish dreamers thanks to the fatalism that pervades Garou society, but a few manage to share their dreams of a Gaia that will be healed and strong when the Apocalypse has ended.",
+            "willpower_condition": "Regain a point of Willpower each time you are able to convince others to have faith in your dreams and follow the course of action dictated by your vision. Note that gaining support is the key to a Visionary regaining Willpower. Success need not come to a Visionary, at least not with every step in changing the structures in question."
+        }
+    }
+]

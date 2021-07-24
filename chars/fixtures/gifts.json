@@ -1,0 +1,1506 @@
+[
+      {
+        "model": "chars.gift",
+        "pk": 1,
+        "fields": {
+            "name": "Garras Afiadas",
+            "type": 9,
+            "level": 1,
+            "spirit_type": "Urso ou Gato",
+            "test": "-",
+            "cost": "Furia 1",
+            "time": "Recarregar",
+            "duration": "Cena",
+            "effect": "Ataques com Garra com -1 de dificuldade e +2 de dano",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 2,
+        "fields": {
+            "name": "Garras-Esporas",
+            "type": 9,
+            "level": 1,
+            "spirit_type": "Abelha",
+            "test": "-",
+            "cost": "Furia 1",
+            "time": "Recarregar",
+            "duration": "Instantanea",
+            "effect": "Apos um ataque, as garras se prendem no alvo. +2 de Dificuldade em todas as acoes ate que as remova (1 Acao). As garras demoram 1 Turno para regenerar",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 3,
+        "fields": {
+            "name": "Inspiracao",
+            "type": 9,
+            "level": 1,
+            "spirit_type": "Leao ou Lobo",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "Recarregar",
+            "duration": "Cena",
+            "effect": "Todos os Aliados recebem um ponto de F.V. para ser usado na cena.",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 4,
+        "fields": {
+            "name": "Taticas de Matilha",
+            "type": 9,
+            "level": 1,
+            "spirit_type": "Lobo",
+            "test": "-",
+            "cost": "F.V. 1",
+            "time": "Reflexivo",
+            "duration": "Instantanea",
+            "effect": "Adiciona os dados de lideranca entre os membros da Matilha ao executar uma manobra de matilha. Pontos devem ser distribuidos igualmente, podendo se decidir onde vai faltar ou sobrar",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 5,
+        "fields": {
+            "name": "Toque da Queda",
+            "type": 9,
+            "level": 1,
+            "spirit_type": "Qqr espirito aereo",
+            "test": "F.V. (Vigor + Esport. do Alvo)",
+            "cost": "F.V ou Furia*",
+            "time": "1 Acao",
+            "duration": "Instantanea",
+            "effect": "Um sucesso e o suficiente para derrubar o Alvo. Ao custo de furia ou F.V., o Dom pode ser aplicado num ataque que da o dano normalmente",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 6,
+        "fields": {
+            "name": "Controle de Maquinas Simples",
+            "type": 10,
+            "level": 1,
+            "spirit_type": "Tecnologico",
+            "test": "Manipulacao + Oficios (7)",
+            "cost": "F.V. 1",
+            "time": "1 Acao",
+            "duration": "Cena",
+            "effect": "Controle Mecanismos eletronicos simples conforme sua vontade",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 7,
+        "fields": {
+            "name": "Diagnosticar",
+            "type": 10,
+            "level": 1,
+            "spirit_type": "Tecnologico",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "1 Acao",
+            "duration": "Cena",
+            "effect": "Reduz pela metade o tempo e o numero de sucessos necessarios para reparar qualquer objeto tecnologico",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 8,
+        "fields": {
+            "name": "Persuasao",
+            "type": 10,
+            "level": 1,
+            "spirit_type": "Ancestral",
+            "test": "Carisma + Labia (7)",
+            "cost": "-",
+            "time": "Acao Livre",
+            "duration": "Cena",
+            "effect": "Reduz em um a dificulade de testes Sociais",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 9,
+        "fields": {
+            "name": "Plug & Play",
+            "type": 10,
+            "level": 1,
+            "spirit_type": "Aranha Padrao",
+            "test": "-",
+            "cost": "F.V. 1",
+            "time": "Acao Livre",
+            "duration": "1 dia",
+            "effect": "Qualquer computador se torna compativel com qualquer outro dispositivo digital, independente de portas fisicas ou sistema operacional",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 10,
+        "fields": {
+            "name": "Tiro Certeiro",
+            "type": 10,
+            "level": 1,
+            "spirit_type": "Ar",
+            "test": "-",
+            "cost": "-",
+            "time": "-",
+            "duration": "Permanente",
+            "effect": "Adiciona a gloria permanente em testes de tiro com pistolas ou rifles que nao atinjam diretamente um alvo",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 11,
+        "fields": {
+            "name": "Aspecto do Fenris",
+            "type": 11,
+            "level": 1,
+            "spirit_type": "Lobo ou Sapo",
+            "test": "Carisma + Intimidacao",
+            "cost": "-",
+            "time": "Recarregar",
+            "duration": "Cena",
+            "effect": "Necessario 1 sucesso para nao Garou e + uma quantidade de sucessos iguao ao dobro da diferenca de posto. Todos sao aterrorizados ou impressionados com a presenca do Garou. -1 de dificuldade em testes sociais e o alvo perde 1 em iniciativa",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 12,
+        "fields": {
+            "name": "Garras Afiadas",
+            "type": 11,
+            "level": 1,
+            "spirit_type": "Urso ou Gato",
+            "test": "-",
+            "cost": "Furia 1",
+            "time": "Recarregar",
+            "duration": "Cena",
+            "effect": "Ataques com Garra com -1 de dificuldade e +2 de dano",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 13,
+        "fields": {
+            "name": "Mestre do Fogo",
+            "type": 11,
+            "level": 1,
+            "spirit_type": "Elemental do Fogo",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "Reflexivo",
+            "duration": "Cena",
+            "effect": "Fogo da dano de contusao ao inves de Agravado",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 14,
+        "fields": {
+            "name": "Reflexos Rapidos",
+            "type": 11,
+            "level": 1,
+            "spirit_type": "Suricate",
+            "test": "-",
+            "cost": "F.V. 1",
+            "time": "Reflexivo",
+            "duration": "1 dia",
+            "effect": "Nao precisa gastar um ponto de forca de vontade ou fazer teste para mudar a acao",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 15,
+        "fields": {
+            "name": "Refugio Seguro",
+            "type": 11,
+            "level": 1,
+            "spirit_type": "Coruja",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "1 Turno",
+            "duration": "1 dia",
+            "effect": "Toda vez que alguem tocado pela Wyrm cruzar as divisas, o jogador rola Percepcao+Ocultismo (7) e quanto mais sucessos, mais detalhes. 1 ponto de F.V. por dia para manter o Dom funcionando",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 16,
+        "fields": {
+            "name": "Resistencia a Dor",
+            "type": 11,
+            "level": 1,
+            "spirit_type": "Urso ou Texugo",
+            "test": "-",
+            "cost": "F.V. 1",
+            "time": "Reflexivo",
+            "duration": "Cena",
+            "effect": "Ignora todas as penalidades de Ferimentos",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 17,
+        "fields": {
+            "name": "Cheiro de Irmao",
+            "type": 13,
+            "level": 1,
+            "spirit_type": "Unicornio",
+            "test": "Aparencia + Empatia",
+            "cost": "Gnose 1",
+            "time": "1 Turno",
+            "duration": "Cena",
+            "effect": "Voce passa despercebido, mesmo que seja estranho para o local. Ex. Um lobo andando pela vizinhanca. Guardas em locais de seguranca maxima podem sofrer os efeitos se sua forca de vontade for menor que os sucessos na ativacao do dom",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 18,
+        "fields": {
+            "name": "Misericordia",
+            "type": 13,
+            "level": 1,
+            "spirit_type": "Pomba",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "Acao Livre",
+            "duration": "Cena",
+            "effect": "Todos os seus ataques com armas naturais sao considerados com dano de contusao",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 19,
+        "fields": {
+            "name": "Pertubar Arma",
+            "type": 13,
+            "level": 1,
+            "spirit_type": "Pomba",
+            "test": "F.V. (Maior F.V. dos Alvos)",
+            "cost": "Gnose 1",
+            "time": "1 Acao",
+            "duration": "1 Turno/suc.",
+            "effect": "Todas as armas feitas pelo Homen param de funcionar. Desde Armas de Fogo complexas ate uma faca.",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 20,
+        "fields": {
+            "name": "Resistencia a Dor",
+            "type": 13,
+            "level": 1,
+            "spirit_type": "Urso ou Texugo",
+            "test": "-",
+            "cost": "F.V. 1",
+            "time": "Reflexivo",
+            "duration": "Cena",
+            "effect": "Ignora todas as penalidades de Ferimentos",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 21,
+        "fields": {
+            "name": "Toque da Mae",
+            "type": 13,
+            "level": 1,
+            "spirit_type": "Urso ou Unicornio",
+            "test": "Int. + Emp (Furia do Alvo ou 5)",
+            "cost": "Gnose 1 ou 2",
+            "time": "1 Acao",
+            "duration": "Instantanea",
+            "effect": "Cura um de dano por sucesso. Para curar cicatrizes de batalha, necessario o gasto de gnose adicional",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 22,
+        "fields": {
+            "name": "Engolir Furia",
+            "type": 13,
+            "level": 1,
+            "spirit_type": "Ancestral",
+            "test": "Furia (7)",
+            "cost": "-",
+            "time": "Reflexivo",
+            "duration": "Instantanea",
+            "effect": "Esse teste nao causa Frenesi. Evita um Frenesi com apenas um sucesso, mas causa a quantidade de sucessos em dano letal.",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 23,
+        "fields": {
+            "name": "Chamado da Wyld",
+            "type": 8,
+            "level": 1,
+            "spirit_type": "Lobo",
+            "test": "Vigor + Empatia",
+            "cost": "-",
+            "time": "1 Acao",
+            "duration": "Cena",
+            "effect": "Utilizado com os Uivos (p.58) Garou e o Narrador determina os Bonus de acordo com os sucessos. O alcance do uivo dobra por sucesso",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 24,
+        "fields": {
+            "name": "Comunicacao Telepatica",
+            "type": 8,
+            "level": 1,
+            "spirit_type": "Chimerling",
+            "test": "Manip. + Expr. (F.V. do Alvo)",
+            "cost": "F.V. 1/alvo",
+            "time": "Acao Livre",
+            "duration": "Cena",
+            "effect": "O teste so e necessario caso queiram resistir. Todos entram num transe e sao capazes de se comunicar mentalmente. Os corpos fisicos podem agir normalmente, mas conta como acao dividida",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 25,
+        "fields": {
+            "name": "Falar com Animais",
+            "type": 8,
+            "level": 1,
+            "spirit_type": "Qualquer Animal",
+            "test": "-",
+            "cost": "-",
+            "time": "-",
+            "duration": "Permanente",
+            "effect": "Fala com animais normalmente",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 26,
+        "fields": {
+            "name": "Memoria Perfeita",
+            "type": 8,
+            "level": 1,
+            "spirit_type": "Elefante",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "Reflexivo",
+            "duration": "Instantanea",
+            "effect": "e possivel lembrar qualquer detalhe da sua vida, mesmo os minimos detalhes.",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 27,
+        "fields": {
+            "name": "Sentidos Agucados",
+            "type": 8,
+            "level": 1,
+            "spirit_type": "Lobo",
+            "test": "Percepcao + Inst. Primitivo",
+            "cost": "Gnose 1",
+            "time": "1 Turno",
+            "duration": "Cena",
+            "effect": "Testes de Percepcao em Hominideo e Glabro sao reduzidos em 2, e em outros, em 3 e ganha 1 de Instinto Primitivo.",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 28,
+        "fields": {
+            "name": "Bencao do Macaco Artesao",
+            "type": 2,
+            "level": 1,
+            "spirit_type": "Ancestral",
+            "test": "Raciocinio + Oficios (7)",
+            "cost": "-",
+            "time": "1 Turno",
+            "duration": "Instantanea",
+            "effect": "Cada sucesso reduz em um na dificuldade de operar qualquer ferramenta feita pelo Homem",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 29,
+        "fields": {
+            "name": "Correr Pela Cidade",
+            "type": 2,
+            "level": 1,
+            "spirit_type": "Urbano",
+            "test": "-",
+            "cost": "Furia 1",
+            "time": "Acao Livre",
+            "duration": "Cena",
+            "effect": "e possivel se movimentar e escalar pela cidade com sua velocidade normal e reduz em dois a dificuldade de testes de Esportes para este fim",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 30,
+        "fields": {
+            "name": "Mestre do Fogo",
+            "type": 2,
+            "level": 1,
+            "spirit_type": "Elemental do Fogo",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "Reflexivo",
+            "duration": "Cena",
+            "effect": "Fogo da dano de contusao ao inves de Agravado",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 31,
+        "fields": {
+            "name": "Persuasao",
+            "type": 2,
+            "level": 1,
+            "spirit_type": "Ancestral",
+            "test": "Carisma + Labia (7)",
+            "cost": "-",
+            "time": "Acao Livre",
+            "duration": "Cena",
+            "effect": "Reduz em um a dificulade de testes Sociais",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 32,
+        "fields": {
+            "name": "Simular Odor de Homem",
+            "type": 2,
+            "level": 1,
+            "spirit_type": "Ancestral",
+            "test": "-",
+            "cost": "-",
+            "time": "-",
+            "duration": "Permanente",
+            "effect": "Animais selvagens perdem dois dados quando interagindo com o Garou, e animais domesticos, mesmo treinados, nao irao o atacar",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 33,
+        "fields": {
+            "name": "Cabeca de Rato",
+            "type": 3,
+            "level": 1,
+            "spirit_type": "Rato",
+            "test": "Destreza + Esportes (7)",
+            "cost": "Gnose 1",
+            "time": "Acao Livre",
+            "duration": "Cena",
+            "effect": "Voce pode se contorcer e passar por qualquer buraco que caiba sua cabeca",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 34,
+        "fields": {
+            "name": "Criar Elementos",
+            "type": 3,
+            "level": 1,
+            "spirit_type": "Elementais",
+            "test": "Gnose",
+            "cost": "Gnose 1",
+            "time": "1 Turno",
+            "duration": "Ate ser usado",
+            "effect": "Cria qualquer um dos 4 elementos basicos 30cm� por sucesso. Fogo pode dar 1 de dano agravado por sucesso (maximo 3)",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 35,
+        "fields": {
+            "name": "Raiva Primordial",
+            "type": 3,
+            "level": 1,
+            "spirit_type": "Ancestral Impuro",
+            "test": "-",
+            "cost": "Vitalidade 1",
+            "time": "Recarregar",
+            "duration": "Instantanea",
+            "effect": "Ao sofrer um de dano agravado, recupera 3 de Furia",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 36,
+        "fields": {
+            "name": "Sentir a Wyrm",
+            "type": 3,
+            "level": 1,
+            "spirit_type": "Qqr espirito de Gaia",
+            "test": "Percepcao + Ocultismo (varia)",
+            "cost": "-",
+            "time": "1 Turno",
+            "duration": "Instantanea",
+            "effect": "Percebe a Wyrm na ara. Um Fomori na sala � frente dif.6. Um Maldito que passou pela sala � uma hora, dif.7",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 37,
+        "fields": {
+            "name": "Soltar Pelo",
+            "type": 3,
+            "level": 1,
+            "spirit_type": "Lagarto ou Cobra",
+            "test": "Destreza + Inst. Primitivo (7)",
+            "cost": "-",
+            "time": "1 Acao",
+            "duration": "Instantanea",
+            "effect": "Voce solta partes do pelo ou da pele, escapando instantaneamento do que estiver te prendendo",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 38,
+        "fields": {
+            "name": "Sentidos Agucados",
+            "type": 4,
+            "level": 1,
+            "spirit_type": "Lobo",
+            "test": "Percepcao + Inst. Primitivo",
+            "cost": "Gnose 1",
+            "time": "1 Turno",
+            "duration": "Cena",
+            "effect": "Testes de Percepcao em Hominideo e Glabro sao reduzidos em 2, e em outros, em 3 e ganha 1 de Instinto Primitivo.",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 39,
+        "fields": {
+            "name": "Orientacao do Ceu",
+            "type": 16,
+            "level": 1,
+            "spirit_type": "Estrela do Norte",
+            "test": "-",
+            "cost": "-",
+            "time": "-",
+            "duration": "Permanente",
+            "effect": "Voce tem um sentido de direcao nato e sempre sabe onde esta o Norte e por qual caminho voce veio ate chegar onde chegou",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 40,
+        "fields": {
+            "name": "Sentir a Wyrm",
+            "type": 16,
+            "level": 1,
+            "spirit_type": "Qqr espirito de Gaia",
+            "test": "Percepcao + Ocultismo (varia)",
+            "cost": "-",
+            "time": "1 Turno",
+            "duration": "Instantanea",
+            "effect": "Percebe a Wyrm na ara. Um Fomori na sala � frente dif.6. Um Maldito que passou pela sala � uma hora, dif.7",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 41,
+        "fields": {
+            "name": "Silencio",
+            "type": 16,
+            "level": 1,
+            "spirit_type": "Coruja",
+            "test": "-",
+            "cost": "-",
+            "time": "-",
+            "duration": "Permanente",
+            "effect": "Adicione dois dados para testes de Destreza + Furtividade",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 42,
+        "fields": {
+            "name": "Velocidade do Pensamento",
+            "type": 16,
+            "level": 1,
+            "spirit_type": "Papa-Leguas/Guepardo",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "Reflexivo",
+            "duration": "Cena",
+            "effect": "Dobra a velocidade de deslocamento",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 43,
+        "fields": {
+            "name": "Visoes do Duat",
+            "type": 16,
+            "level": 1,
+            "spirit_type": "Coruja",
+            "test": "Percepcao + Ocultismo (7)",
+            "cost": "Gnose 1",
+            "time": "Recarregar",
+            "duration": "Cena",
+            "effect": "Pode ver fantasmas e com mais um teste de Percepcao + Ocultismo (variavel) pode ver areas assombradas",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 44,
+        "fields": {
+            "name": "Faro para Forma Verdadeira",
+            "type": 7,
+            "level": 1,
+            "spirit_type": "Abutre",
+            "test": "Percep. + Inst. Primitivo (6)*",
+            "cost": "-",
+            "time": "1 Turno",
+            "duration": "Instantanea",
+            "effect": "Pode detectar Parentes e Garou automaticamente. Outros, deve realizar o teste. Um sucesso para humanos e animais. Dois sucessos para um vampiro, fada, demonio ou Fera. Quatro sucessos para um Mago, carnical ou Fomor",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 45,
+        "fields": {
+            "name": "Persuasao",
+            "type": 7,
+            "level": 1,
+            "spirit_type": "Ancestral",
+            "test": "Carisma + Labia (7)",
+            "cost": "-",
+            "time": "Acao Livre",
+            "duration": "Cena",
+            "effect": "Reduz em um a dificulade de testes Sociais",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 46,
+        "fields": {
+            "name": "Presas do Julgamento",
+            "type": 7,
+            "level": 1,
+            "spirit_type": "Ancestral",
+            "test": "-",
+            "cost": "F.V. 1",
+            "time": "Recarregar",
+            "duration": "1 dia",
+            "effect": "Todas as armas naturais do Garou dao dois dados de dano adicionais em criaturas da Wyrm",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 47,
+        "fields": {
+            "name": "Resistencia a Dor",
+            "type": 7,
+            "level": 1,
+            "spirit_type": "Urso ou Texugo",
+            "test": "-",
+            "cost": "F.V. 1",
+            "time": "Reflexivo",
+            "duration": "Cena",
+            "effect": "Ignora todas as penalidades de Ferimentos",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 48,
+        "fields": {
+            "name": "Verdade de Gaia",
+            "type": 7,
+            "level": 1,
+            "spirit_type": "Falcao",
+            "test": "Int.+Emp. (Man+Lab do alvo)",
+            "cost": "-",
+            "time": "Reflexivo",
+            "duration": "Instantanea",
+            "effect": "Detecta o que e verdade ou mentira na fala do alvo",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 49,
+        "fields": {
+            "name": "Chama Tremulante",
+            "type": 18,
+            "level": 1,
+            "spirit_type": "Luno",
+            "test": "-",
+            "cost": "F.V. 1",
+            "time": "Recarregar",
+            "duration": "Cena",
+            "effect": "Seu corpo queima numa luz prateada que ilumina um raio de 30m. Todos os testes de ataque contra voce sofrem +1 de dificuldade",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 50,
+        "fields": {
+            "name": "Inspiracao",
+            "type": 18,
+            "level": 1,
+            "spirit_type": "Ancestral",
+            "test": "Carisma + Labia (7)",
+            "cost": "-",
+            "time": "Acao Livre",
+            "duration": "Cena",
+            "effect": "Reduz em um a dificulade de testes Sociais",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 51,
+        "fields": {
+            "name": "Nas Garras do Falcao",
+            "type": 18,
+            "level": 1,
+            "spirit_type": "Falcao",
+            "test": "-",
+            "cost": "Furia 1",
+            "time": "Recarregar",
+            "duration": "Cena",
+            "effect": "Tdodos os testes de Forca para manobras de agarrar sao feitos como se a Forca fosse 3 vezes maior. Essa forca nao e aplicada para o dano",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 52,
+        "fields": {
+            "name": "Olho do Falcao",
+            "type": 18,
+            "level": 1,
+            "spirit_type": "Falcao",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "Acao Livre",
+            "duration": "Cena",
+            "effect": "Todos os Ataques � distancia e testes de percepcao relacionados a visao sao feitos com -1 de dificuldade",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 53,
+        "fields": {
+            "name": "Sentir a Wyrm",
+            "type": 18,
+            "level": 1,
+            "spirit_type": "Qqr espirito de Gaia",
+            "test": "Percepcao + Ocultismo (varia)",
+            "cost": "-",
+            "time": "1 Turno",
+            "duration": "Instantanea",
+            "effect": "Percebe a Wyrm na ara. Um Fomori na sala � frente dif.6. Um Maldito que passou pela sala � uma hora, dif.7",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 54,
+        "fields": {
+            "name": "Abrir Objeto",
+            "type": 5,
+            "level": 1,
+            "spirit_type": "Guaxinin",
+            "test": "Gnose (Pelicula)",
+            "cost": "Gnose 0 ou 1",
+            "time": "1 Acao",
+            "duration": "Instantanea",
+            "effect": "Abre qualquer objeto. Se selados magicamente necessario o gasto de Gnose",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 55,
+        "fields": {
+            "name": "Cara do Mentiroso",
+            "type": 5,
+            "level": 1,
+            "spirit_type": "Ornintorrinco",
+            "test": "Carisma + Labia (7)",
+            "cost": "F.V. 1",
+            "time": "Acao Livre",
+            "duration": "Cena",
+            "effect": "Ninguem vai acreditar em voce, mesmo que esteja falando a verdade. Humanos nao tem resistencia. Criaturas sobrenaturais devem ter mais F.V. do que o numero de sucessos",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 56,
+        "fields": {
+            "name": "Embacamento da Propria Forma",
+            "type": 5,
+            "level": 1,
+            "spirit_type": "Camaleao",
+            "test": "Manipulacao + Furtividade (8)",
+            "cost": "-",
+            "time": "Acao Livre",
+            "duration": "Cena",
+            "effect": "Cada sucesso aumenta em um a dificuldade de ser encontrado",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 57,
+        "fields": {
+            "name": "Risada Contagiante",
+            "type": 5,
+            "level": 1,
+            "spirit_type": "Coiote ou Hiena",
+            "test": "Manip. + Expr. (Furia do Alvo)",
+            "cost": "-",
+            "time": "Reflexivo",
+            "duration": "Instantanea",
+            "effect": "Faz com que todos esquecam o motivo de sua furia e comecem a rir",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 58,
+        "fields": {
+            "name": "Simular Cheiro de agua Corrente",
+            "type": 5,
+            "level": 1,
+            "spirit_type": "Raposa",
+            "test": "-",
+            "cost": "-",
+            "time": "-",
+            "duration": "Permanente",
+            "effect": "Os testes para te rastrear aumentam em dois a dificuldade",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 59,
+        "fields": {
+            "name": "Aproveitar a Vantagem",
+            "type": 20,
+            "level": 1,
+            "spirit_type": "Avo Trovao",
+            "test": "-",
+            "cost": "Gnose 1*",
+            "time": "-",
+            "duration": "Permanente",
+            "effect": "Sempre que ouver empate em um teste resistido, a vantagem e do Senhor das Sombras. Para usar mais de uma vez por cena, necessario gnose",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 60,
+        "fields": {
+            "name": "Aura de Confianca",
+            "type": 20,
+            "level": 1,
+            "spirit_type": "Ancestral",
+            "test": "-",
+            "cost": "-",
+            "time": "-",
+            "duration": "Permanente",
+            "effect": "Nao e possivel ler auras ou encontrar fraquezas no portador do Dom",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 61,
+        "fields": {
+            "name": "Capturar Sussurros",
+            "type": 20,
+            "level": 1,
+            "spirit_type": "Corvo ou Morcego",
+            "test": "-",
+            "cost": "F.V. 1",
+            "time": "1 Turno",
+            "duration": "Cena",
+            "effect": "Pode ouvir claramente todos os sussurros num raio de 60m",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 62,
+        "fields": {
+            "name": "Fraquezas Fatais",
+            "type": 20,
+            "level": 1,
+            "spirit_type": "Corvo da Tempestade",
+            "test": "Percep. + Emp. (Rac.+Labia)",
+            "cost": "-",
+            "time": "Recarregar",
+            "duration": "Cena",
+            "effect": "Um sucesso = 1 Dado extra de dano no combate. Mais sucessos garantem informacoes adicionais",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 63,
+        "fields": {
+            "name": "Manipular Sombras",
+            "type": 20,
+            "level": 1,
+            "spirit_type": "Sombra",
+            "test": "Destreza + Ocultismo (7)",
+            "cost": "Gnose 1",
+            "time": "Recarregar",
+            "duration": "Cena",
+            "effect": "O Garou pode manipular sombras num raio de 90m como quiser. Tambem concede -1 de dificuldade em testes de intimidacao e furtividade",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 64,
+        "fields": {
+            "name": "Aprisionar Espirito",
+            "type": 6,
+            "level": 1,
+            "spirit_type": "Coruja",
+            "test": "Inteligencia + Ocultismo (8)",
+            "cost": "Gnose 1",
+            "time": "1 Acao",
+            "duration": "Cena",
+            "effect": "e preciso acertar um ataque � distancia (Destreza + Esportes) e jogar a rede espiritual. O Espirito perde dois de Forca de Vontade",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 65,
+        "fields": {
+            "name": "Cordao Umbral",
+            "type": 6,
+            "level": 1,
+            "spirit_type": "Aranha",
+            "test": "-",
+            "cost": "Gnose 1/dia",
+            "time": "1 Turno",
+            "duration": "Variavel",
+            "effect": "Cria um cordao invisivel que liga o Garou ao ponto que ele acessou a Umbra. Necessario o gasto de gnose para 1 por dia alem do primeiro",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 66,
+        "fields": {
+            "name": "Falar com Espiritos",
+            "type": 6,
+            "level": 1,
+            "spirit_type": "Qqr espirito",
+            "test": "-",
+            "cost": "-",
+            "time": "-",
+            "duration": "Permanente",
+            "effect": "Fala com espiritos normalmente",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 67,
+        "fields": {
+            "name": "Sentir a Wyrm",
+            "type": 6,
+            "level": 1,
+            "spirit_type": "Qqr espirito de Gaia",
+            "test": "Percepcao + Ocultismo (varia)",
+            "cost": "-",
+            "time": "1 Turno",
+            "duration": "Instantanea",
+            "effect": "Percebe a Wyrm na ara. Um Fomori na sala � frente dif.6. Um Maldito que passou pela sala � uma hora, dif.7",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 68,
+        "fields": {
+            "name": "Toque da Mae",
+            "type": 6,
+            "level": 1,
+            "spirit_type": "Urso ou Unicornio",
+            "test": "Int. + Emp (Furia do Alvo ou 5)",
+            "cost": "Gnose 1 ou 2",
+            "time": "1 Acao",
+            "duration": "Instantanea",
+            "effect": "Cura um de dano por sucesso. Para curar cicatrizes de batalha, necessario o gasto de gnose adicional",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 69,
+        "fields": {
+            "name": "Espirito da Batalha",
+            "type": 9,
+            "level": 2,
+            "spirit_type": "Gato",
+            "test": "-",
+            "cost": "Gnose 1*",
+            "time": "-",
+            "duration": "Permanente",
+            "effect": "+10 na iniciativa. Ao gasto de Gnose, pode adicionar +10",
+            "refference": "Tribebook Filhos de Gaia, Pag 66"
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 70,
+        "fields": {
+            "name": "Ira Espiritual",
+            "type": 9,
+            "level": 2,
+            "spirit_type": "Qqr espirito de Guerra",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "Recarregar",
+            "duration": "1 Turno",
+            "effect": "Aumenta a dificuldade de absorver dano do Garou com Garras para 9. So funciona em criaturas de um unico mundo (Nao funciona em Garou, Fomor, Fada, etc.)",
+            "refference": "W20, Pag. 177"
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 71,
+        "fields": {
+            "name": "Sentidos Ciberneticos",
+            "type": 10,
+            "level": 2,
+            "spirit_type": "Tecnologico",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "Recarregar",
+            "duration": "Cena",
+            "effect": "Substitui um de seus sentidos por algum sentido tecnologico (visao de raio-x, audicao de radar, etc.). Pode acumular com gatos de gnose adicionais.",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 72,
+        "fields": {
+            "name": "Bala na Agulha",
+            "type": 10,
+            "level": 2,
+            "spirit_type": "Tecnologico ou da Guerra",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "Recarregar",
+            "duration": "Cena",
+            "effect": "Municao infinita",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 73,
+        "fields": {
+            "name": "Pertubar Tecnologia",
+            "type": 10,
+            "level": 2,
+            "spirit_type": "Gremlin",
+            "test": "Manipulacao + Oficios (varia)",
+            "cost": "Gnose 1",
+            "time": "1 Acao",
+            "duration": "2 Turno/suc.",
+            "effect": "Todo material fabricado da complexidade escolhida para de funcionar num raio de 15m. Dificuldade: Comutador(4), Telefone(5), Veiculo(7), Arma(8), Faca(9)",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 74,
+        "fields": {
+            "name": "Sobrecarga de Energia",
+            "type": 10,
+            "level": 2,
+            "spirit_type": "Elemental da Eletricidade",
+            "test": "Carisma + Ciencia (7)",
+            "cost": "Gnose 1",
+            "time": "1 Acao",
+            "duration": "Cena",
+            "effect": "1 sucesso causa um blackout em uma sala e 5 sucessos, em uma vizinhanca inteira",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 75,
+        "fields": {
+            "name": "Pelo de Aco",
+            "type": 10,
+            "level": 2,
+            "spirit_type": "Elemental do Metal ou Terra",
+            "test": "Vigor + Ciencia (7)",
+            "cost": "F.V. 1",
+            "time": "Recarregar",
+            "duration": "Cena",
+            "effect": "Ganha um dado de Absorcao em Crinos, Lupino ou Hispo para cada sucesso na ativacao. +1 de dificuldade em Destreza e testes sociais contra nao Andarilhos",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 76,
+        "fields": {
+            "name": "Calma",
+            "type": 13,
+            "level": 2,
+            "spirit_type": "Unicornio",
+            "test": "Car + Empatia (F.V. do Alvo)",
+            "cost": "Gnose 1",
+            "time": "1 Acao",
+            "duration": "Instantanea",
+            "effect": "Cada sucesso remove um de Furia do alvo. 3 Sucessos podem cancelar um Frenesi",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 77,
+        "fields": {
+            "name": "Armadura de Luna",
+            "type": 13,
+            "level": 2,
+            "spirit_type": "Luno",
+            "test": "Vigor + Sobrevivencia",
+            "cost": "Gnose 1",
+            "time": "1 Turno",
+            "duration": "Cena",
+            "effect": "Cada sucesso na ativacao adiciona um dado de absorcao. Esses dados podem ser usados para absorver prata.",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 78,
+        "fields": {
+            "name": "Toque da Avo",
+            "type": 13,
+            "level": 2,
+            "spirit_type": "Urso ou Unicornio",
+            "test": "Int. + Emp (Furia do Alvo ou 5)",
+            "cost": "Gnose 1 ou 2",
+            "time": "1 Acao",
+            "duration": "Instantanea",
+            "effect": "Como Toque da mae, mas pode curar a si mesmo. e necessario possuir o Toque da mae",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 79,
+        "fields": {
+            "name": "Fitar",
+            "type": 2,
+            "level": 2,
+            "spirit_type": "Carneiro ou Cobra",
+            "test": "Carisma + Intimidacao (5+posto)",
+            "cost": "-",
+            "time": "1 Acao",
+            "duration": "1 Turno/suc.",
+            "effect": "Faz o alvo fugir ou congelar (se for um Lobisomem). Pode ser resistido com o gasto de FV por turno. 5 sucessos dura a cena inteira.",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 80,
+        "fields": {
+            "name": "Pertubar Tecnologia",
+            "type": 2,
+            "level": 2,
+            "spirit_type": "Gremlin",
+            "test": "Manipulacao + Oficios (varia)",
+            "cost": "Gnose 1",
+            "time": "1 Acao",
+            "duration": "2 Turno/suc.",
+            "effect": "Todo material fabricado da complexidade escolhida para de funcionar num raio de 15m. Dificuldade: Comutador(4), Telefone(5), Veiculo(7), Arma(8), Faca(9)",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 81,
+        "fields": {
+            "name": "Marca do Lobo",
+            "type": 2,
+            "level": 2,
+            "spirit_type": "Luno",
+            "test": "Manipulacao + Inst. Primitivo (7)",
+            "cost": "-",
+            "time": "1 Turno",
+            "duration": "1 dia/suc.",
+            "effect": "e preciso ter uma interacao com o alvo. Ele sofre das penalidades sociais como se tivesse a mesma furia do Garou.",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 82,
+        "fields": {
+            "name": "Linguas",
+            "type": 2,
+            "level": 2,
+            "spirit_type": "Ancestral",
+            "test": "Inteligencia + Academicos (7)",
+            "cost": "-",
+            "time": "Reflexivo",
+            "duration": "Cena",
+            "effect": "Compreende qualquer lingua humana",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 83,
+        "fields": {
+            "name": "Gerar Ignorancia",
+            "type": 5,
+            "level": 2,
+            "spirit_type": "Camaleao",
+            "test": "Vigor + Furtividade (5)",
+            "cost": "-",
+            "time": "1 Acao",
+            "duration": "Cena",
+            "effect": "Cada sucesso subtrai um sucesso do teste de Percepcao + Prontidao para visualizar o alvo. Se ninguem estiver o procurando, 1 sucesso e o suficiente para se esconder totalmente",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 84,
+        "fields": {
+            "name": "Sentir a Presa",
+            "type": 5,
+            "level": 2,
+            "spirit_type": "Lobo ou Cao",
+            "test": "Perc. + Enigmas (Rac + Furt.)",
+            "cost": "-",
+            "time": "1 Acao",
+            "duration": "Cena",
+            "effect": "Se souber qualquer coisa sobre a vitma pode rastrea-la. Se a vitima nao estiver se escondendo nao e necessario teste",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 85,
+        "fields": {
+            "name": "Cancao da Aranha",
+            "type": 5,
+            "level": 2,
+            "spirit_type": "Aranha ou Corvo",
+            "test": "-",
+            "cost": "Gnose 1",
+            "time": "1 Acao",
+            "duration": "Cena",
+            "effect": "Pode ouvir qualquer conversa de telefone desde que veja a pessoa no telefone ou tenha acesso � linha.",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 86,
+        "fields": {
+            "name": "Induzir o Esquecimento",
+            "type": 5,
+            "level": 2,
+            "spirit_type": "Rato",
+            "test": "Rac. + Crime (Int. + Manha)",
+            "cost": "-",
+            "time": "Acao Livre",
+            "duration": "Permanente",
+            "effect": "Com 3 sucessos, faz a vitima esquecer que possuia algo roubado dela",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 87,
+        "fields": {
+            "name": "Acalmar a Besta Selvagem",
+            "type": 13,
+            "level": 3,
+            "spirit_type": "Ancestral",
+            "test": "Manip. + Inst. Primitivo (8)",
+            "cost": "F.V. 1 ou 2",
+            "time": "1 Acao",
+            "duration": "Instantanea",
+            "effect": "Cancela um Frenesi em um Garou. Com 2 pontos de F.Vontade, pode ser utilizado em outro metamorfo ou outra criatura que possua furia",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 88,
+        "fields": {
+            "name": "Olho de Cobra",
+            "type": 8,
+            "level": 3,
+            "spirit_type": "Cobra",
+            "test": "Aparencia + Enigmas (F. Vontade)",
+            "cost": "-",
+            "time": "1 Acao",
+            "duration": "Instantanea",
+            "effect": "3 Sucessos traz o Alvo ate voce e menos fazem ele comecar a ir ate la. Ao chegar, ele pode fazer o que quiser.",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 89,
+        "fields": {
+            "name": "Acalmar a Besta Selvagem",
+            "type": 2,
+            "level": 3,
+            "spirit_type": "Ancestral",
+            "test": "Manip. + Inst. Primitivo (8)",
+            "cost": "F.V. 1 ou 2",
+            "time": "1 Acao",
+            "duration": "Instantanea",
+            "effect": "Cancela um Frenesi em um Garou. Com 2 pontos de F.Vontade, pode ser utilizado em outro metamorfo ou outra criatura que possua furia",
+            "refference": ""
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 90,
+        "fields": {
+            "name": "Culinária",
+            "type": 19,
+            "level": 1,
+            "spirit_type": "Guaxinim",
+            "test": "Raciocínio + Sobrevivência (6)",
+            "cost": "NA",
+            "time": "1 Turno",
+            "duration": "Permanente",
+            "effect": "Mistura lixo, água ou cuspe, e tudo o que estiver ao alcance em uma comida pastosa e ruim, mas que alimenta 1 pessoa por sucesso.",
+            "refference": "W20 p.174"
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 91,
+        "fields": {
+            "name": "Força Desesperada",
+            "type": 19,
+            "level": 1,
+            "spirit_type": "Castor",
+            "test": "NA",
+            "cost": "NA",
+            "time": "NA",
+            "duration": "Permanente",
+            "effect": "Toda vez que o personagem realizar uma ação de Força (Ver W20 p. 270), o Garou pode adicionar um dado para cada 1 de dano de contusão que esteja disposto a receber em troca.",
+            "refference": "W20 p.174"
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 92,
+        "fields": {
+            "name": "Resistência à Toxinas",
+            "type": 19,
+            "level": 1,
+            "spirit_type": "Rato",
+            "test": "NA",
+            "cost": "NA",
+            "time": "NA",
+            "duration": "Permanente",
+            "effect": "O Garou é imune à todo tipo de veneno mundano e possui +3 dados para absorver venenos aprimorados pela Wyrm. Este Dom pode ser desligado de propósito, como por exemplo para curtir o álcool ou outra substância.",
+            "refference": "W20 p.174"
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 93,
+        "fields": {
+            "name": "Cheiro de Mel Doce",
+            "type": 19,
+            "level": 1,
+            "spirit_type": "Espíritos Insetos",
+            "test": "Raciocíno + Lábia (7)",
+            "cost": "Gnose: 1",
+            "time": "1 Hora",
+            "duration": "1 Hora por sucesso",
+            "effect": "É preciso tocar o alvo. Ele começa a ficar com a pele levemente grudenta, exala um aroma maravilhosamente doce e tudo quanto é tipo de inseto é atraído para ele. -1 de penalidade em todas as ações. O cheiro não sai até o fim da duração.",
+            "refference": "W20 p.174"
+        }
+      },
+      {
+        "model": "chars.gift",
+        "pk": 94,
+        "fields": {
+            "name": "Lixo é Tesouro",
+            "type": 19,
+            "level": 1,
+            "spirit_type": "Guaxinim",
+            "test": "Raciocíno + Ofícios (6)",
+            "cost": "Força de Vontade: 1(para durar 1 dia)",
+            "time": "1 Ação",
+            "duration": "1 Turno por sucesso",
+            "effect": "Um objeto quebrado ou defeituoso se torna perfeitamente útil nas mão dos Roedor. Uma faca cega pode cortar, uma pistola quebrada pode atirar ou um carro no ferro-velho pode dar partida. Para o efeito estendido, é necessário a devida munição ou combustível.",
+            "refference": "W20 p.175"
+        }
+      }
+]

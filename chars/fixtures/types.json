@@ -1,0 +1,201 @@
+[
+    {
+        "model": "chars.type",
+        "pk": 1,
+        "fields": {
+            "name": "Garou",
+            "classfication": 1,
+            "initial_bonus": 18,
+            "initial_optional": 27
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 2,
+        "fields": {
+            "name": "Hominídeo",
+            "classfication": 2,
+            "initial_bonus": 1
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 3,
+        "fields": {
+            "name": "Impuro",
+            "classfication": 2,
+            "initial_bonus": 3
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 4,
+        "fields": {
+            "name": "Lupino",
+            "classfication": 2,
+            "initial_bonus": 5
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 5,
+        "fields": {
+            "name": "Ragabash",
+            "classfication": 3,
+            "initial_bonus": 1
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 6,
+        "fields": {
+            "name": "Theurge",
+            "classfication": 3,
+            "initial_bonus": 2
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 7,
+        "fields": {
+            "name": "Philodox",
+            "classfication": 3,
+            "initial_bonus": 3
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 8,
+        "fields": {
+            "name": "Galliard",
+            "classfication": 3,
+            "initial_bonus": 4
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 9,
+        "fields": {
+            "name": "Ahroun",
+            "classfication": 3,
+            "initial_bonus": 5
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 10,
+        "fields": {
+            "name": "Andarilhos do Asfalto",
+            "classfication": 4,
+            "initial_bonus": 3
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 11,
+        "fields": {
+            "name": "Crias de Fenrir",
+            "classfication": 4,
+            "initial_bonus": 3
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 12,
+        "fields": {
+            "name": "Fianna",
+            "classfication": 4,
+            "initial_bonus": 3
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 13,
+        "fields": {
+            "name": "Filhos de Gaia",
+            "classfication": 4,
+            "initial_bonus": 4
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 14,
+        "fields": {
+            "name": "Fúrias Negras",
+            "classfication": 4,
+            "initial_bonus": 3
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 15,
+        "fields": {
+            "name": "Garras Vermelhas",
+            "classfication": 4,
+            "initial_bonus": 3
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 16,
+        "fields": {
+            "name": "Peregrinos Silenciosos",
+            "classfication": 4,
+            "initial_bonus": 3
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 17,
+        "fields": {
+            "name": "Portadores da Luz",
+            "classfication": 4,
+            "initial_bonus": 4
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 18,
+        "fields": {
+            "name": "Presas de Prata",
+            "classfication": 4,
+            "initial_bonus": 3
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 19,
+        "fields": {
+            "name": "Roedores de Ossos",
+            "classfication": 4,
+            "initial_bonus": 4
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 20,
+        "fields": {
+            "name": "Senhores das Sombras",
+            "classfication": 4,
+            "initial_bonus": 3
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 21,
+        "fields": {
+            "name": "Uktena",
+            "classfication": 4,
+            "initial_bonus": 3
+        }
+    },
+    {
+        "model": "chars.type",
+        "pk": 22,
+        "fields": {
+            "name": "Wendigo",
+            "classfication": 4,
+            "initial_bonus": 4
+        }
+    }
+]

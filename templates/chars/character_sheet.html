@@ -1,0 +1,203 @@
+{% load static %}
+{% load char_tags %}
+
+<div class="container my-3">
+    <div class="row">
+        <div class="col-lg-12">
+            <h5 class="text-center font-weight-bold border-bottom border-top">Ficha</h5>
+        </div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Natureza:</div><div class="col-lg-10">{{ character.nature }}</div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Comportamento:</div><div class="col-lg-10">{{ character.demeanor }}</div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h5 class="text-center font-weight-bold border-bottom border-top">Atributos</h5>
+        </div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Força</div><div class="col-lg-2">{% numbers_to_bullets character.strength 5 %}</div>
+        <div class="col-lg-2">Carisma</div><div class="col-lg-2">{% numbers_to_bullets character.charisma 5 %}</div>
+        <div class="col-lg-2">Percepção</div><div class="col-lg-2">{% numbers_to_bullets character.perception 5 %}</div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Destreza</div><div class="col-lg-2">{% numbers_to_bullets character.dextery 5 %}</div>
+        <div class="col-lg-2">Manipulação</div><div class="col-lg-2">{% numbers_to_bullets character.manipulation 5 %}</div>
+        <div class="col-lg-2">Inteligência</div><div class="col-lg-2">{% numbers_to_bullets character.intelligence 5 %}</div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Vigor</div><div class="col-lg-2">{% numbers_to_bullets character.stamina 5 %}</div>
+        <div class="col-lg-2">Aparência</div><div class="col-lg-2">{% numbers_to_bullets character.appearance 5 %}</div>
+        <div class="col-lg-2">Raciocínio</div><div class="col-lg-2">{% numbers_to_bullets character.wits 5 %}</div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h5 class="text-center font-weight-bold border-bottom  border-top">Habilidades</h5>
+        </div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Prontidão</div><div class="col-lg-2">{% numbers_to_bullets character.alertness 5 %}</div>
+        <div class="col-lg-2">Empatia c/ Animais</div><div class="col-lg-2">{% numbers_to_bullets character.animal_ken 5 %}</div>
+        <div class="col-lg-2">Acadêmicos</div><div class="col-lg-2">{% numbers_to_bullets character.academics 5 %}</div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Esportes</div><div class="col-lg-2">{% numbers_to_bullets character.athletics 5 %}</div>
+        <div class="col-lg-2">Ofícios</div><div class="col-lg-2">{% numbers_to_bullets character.crafts 5 %}</div>
+        <div class="col-lg-2">Computador</div><div class="col-lg-2">{% numbers_to_bullets character.computer 5 %}</div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Briga</div><div class="col-lg-2">{% numbers_to_bullets character.brawl 5 %}</div>
+        <div class="col-lg-2">Condução</div><div class="col-lg-2">{% numbers_to_bullets character.drive 5 %}</div>
+        <div class="col-lg-2">Enigmas</div><div class="col-lg-2">{% numbers_to_bullets character.enigmas 5 %}</div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Empatia</div><div class="col-lg-2">{% numbers_to_bullets character.empathy 5 %}</div>
+        <div class="col-lg-2">Etiqueta</div><div class="col-lg-2">{% numbers_to_bullets character.etiquette 5 %}</div>
+        <div class="col-lg-2">Investigação</div><div class="col-lg-2">{% numbers_to_bullets character.investigation 5 %}</div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Expressão</div><div class="col-lg-2">{% numbers_to_bullets character.expression 5 %}</div>
+        <div class="col-lg-2">Armas de Fogo</div><div class="col-lg-2">{% numbers_to_bullets character.firearms 5 %}</div>
+        <div class="col-lg-2">Direito</div><div class="col-lg-2">{% numbers_to_bullets character.law 5 %}</div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Liderança</div><div class="col-lg-2">{% numbers_to_bullets character.leadership 5 %}</div>
+        <div class="col-lg-2">Crime</div><div class="col-lg-2">{% numbers_to_bullets character.larceny 5 %}</div>
+        <div class="col-lg-2">Medicina</div><div class="col-lg-2">{% numbers_to_bullets character.medicine 5 %}</div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Intimidação</div><div class="col-lg-2">{% numbers_to_bullets character.intimidation 5 %}</div>
+        <div class="col-lg-2">Armas Brancas</div><div class="col-lg-2">{% numbers_to_bullets character.melee 5 %}</div>
+        <div class="col-lg-2">Ocultismo</div><div class="col-lg-2">{% numbers_to_bullets character.occult 5 %}</div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Instinto Primitivo</div><div class="col-lg-2">{% numbers_to_bullets character.primal_urge 5 %}</div>
+        <div class="col-lg-2">Performance</div><div class="col-lg-2">{% numbers_to_bullets character.performance 5 %}</div>
+        <div class="col-lg-2">Rituais</div><div class="col-lg-2">{% numbers_to_bullets character.rituals 5 %}</div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Manha</div><div class="col-lg-2">{% numbers_to_bullets character.streetwise 5 %}</div>
+        <div class="col-lg-2">Furtividade</div><div class="col-lg-2">{% numbers_to_bullets character.stealth 5 %}</div>
+        <div class="col-lg-2">Ciência</div><div class="col-lg-2">{% numbers_to_bullets character.science 5 %}</div>
+    </div>
+    <div class="row font-weight-bold">
+        <div class="col-lg-2">Lábia</div><div class="col-lg-2">{% numbers_to_bullets character.subterfuge 5 %}</div>
+        <div class="col-lg-2">Sobrevivência</div><div class="col-lg-2">{% numbers_to_bullets character.survival 5 %}</div>
+        <div class="col-lg-2">Tecnologia</div><div class="col-lg-2">{% numbers_to_bullets character.technology 5 %}</div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h5 class="text-center font-weight-bold border-bottom  border-top">Características</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 font-weight-bold">
+            <h5 class="text-center">Antecedentes</h5>
+            <table class="table table-borderless table-sm">
+                {% if character.allies > 0 %}<tr><td>Aliados</td><td>{% numbers_to_bullets character.allies 5 %}</td></tr>{% endif %}
+                {% if character.ancestors > 0 %}<tr><td>Ancestrais</td><td>{% numbers_to_bullets character.ancestors 5 %}</td></tr>{% endif %}
+                {% if character.contacts > 0 %}<tr><td>Contatos</td><td>{% numbers_to_bullets character.contacts 5 %}</td></tr>{% endif %}
+                {% if character.fate > 0 %}<tr><td>Destino</td><td>{% numbers_to_bullets character.fate 5 %}</td></tr>{% endif %}
+                {% if character.fetish > 0 %}<tr><td>Feitiche</td><td>{% numbers_to_bullets character.fetish 5 %}</td></tr>{% endif %}
+                {% if character.kinfolk > 0 %}<tr><td>Parentes</td><td>{% numbers_to_bullets character.kinfolk 5 %}</td></tr>{% endif %}
+                {% if character.mentor > 0 %}<tr><td>Mentor</td><td>{% numbers_to_bullets character.mentor 5 %}</td></tr>{% endif %}
+                {% if character.pure_breed > 0 %}<tr><td>Raça Pura</td><td>{% numbers_to_bullets character.pure_breed 5 %}</td></tr>{% endif %}
+                {% if character.resources > 0 %}<tr><td>Recursos</td><td>{% numbers_to_bullets character.resources 5 %}</td></tr>{% endif %}
+                {% if character.rites > 0 %}<tr><td>Rituais</td><td>{% numbers_to_bullets character.rites 5 %}</td></tr>{% endif %}
+                {% if character.spirit_heritage > 0 %}<tr><td>Herança Espiritual</td><td>{% numbers_to_bullets character.spirit_heritage 5 %}</td></tr>{% endif %}
+                {% if character.totem > 0 %}<tr><td>Totem</td><td>{% numbers_to_bullets character.totem 5 %}</td></tr>{% endif %}
+                {% if character.spirit_network > 0 %}<tr><td>Rede de Espíritos</td><td>{% numbers_to_bullets character.spirit_network 5 %}</td></tr>{% endif %}
+                {% if character.prestige > 0 %}<tr><td>Prestígio</td><td>{% numbers_to_bullets character.prestige 5 %}</td></tr>{% endif %}
+                {% if character.pack_status > 0 %}<tr><td>Status da Matilha</td><td>{% numbers_to_bullets character.pack_status 5 %}</td></tr>{% endif %}
+            </table>
+        </div>
+        <div class="col-lg-4 text-center">
+            <h6 class="font-weight-bold">Fúria</h6>
+            <h6>{% numbers_to_bullets character.rage 10 %}</h6>
+            <h6 class="font-weight-bold">Gnose</h6>
+            <h6>{% numbers_to_bullets character.gnosis 10 %}</h6>
+            <h6 class="font-weight-bold">Força de Vontade</h6>
+            <h6>{% numbers_to_bullets character.willpower 10 %}</h6>
+        </div>
+        <div class="col-lg-4">
+            <h5 class="text-center">Dons</h5>
+            <table class="table table-borderless table-sm">
+                <tr>
+                    {% for gifts in character.gifts.all %}
+                    <td>{{ gifts.name }}</td>
+                    {% if forloop.counter|divisibleby:"2" and not forloop.last %}
+                </tr><tr>
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h5 class="text-center font-weight-bold border-bottom  border-top">Outros</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            {% if character.rite_list %}
+            <h5 class="text-center">Rituais</h5>
+            <table class="table table-borderless table-sm">
+                <tr>
+                    {% for rits in character.rite_list.all %}
+                    <td>{{ rits.name }}</td>
+                    {% if forloop.counter|divisibleby:"2" and not forloop.last %}
+                </tr><tr>
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+            </table>
+            {% endif %}
+        </div>
+        <div class="col-lg-4">
+            {% if character.merits %}
+            <h5 class="text-center">Vantagens & Desvantagens</h5>
+            <table class="table table-borderless table-sm">
+                    {% for merit in character.merits.all %}
+                    <tr>
+                        <td>{{ merit.name }} ({{ merit.cost }})</td>
+                    </tr>
+                    {% endfor %}
+            </table>
+            {% endif %}            
+        </div>
+        <div class="col-lg-4">
+            <h5 class="text-center font-weight-bold">Inventário</h5>
+            <table class="table table-borderless table-sm text-center">
+                {% if character.weapons %}
+                <tr><th colspan=3">Armas</th></tr>
+                <tr><th>Nome</th><th>Dificuldade</th><th>Dano</th></tr>
+                {% for weapon in character.weapons.all %}
+                <tr>
+                    <td class="text-left">{{ weapon.name }}</td>
+                    <td>{{ weapon.dificulty }}</td>
+                    <td>{{ weapon.damage }}</td>
+                </tr>
+                {% endfor %}
+                {% endif %}
+                {% if character.armors %}
+                <th class="text-center" colspan="3">Armaduras</th>
+                {% for armor in character.armors.all %}
+                <tr>
+                    <td class="text-left">{{ armor.name }} + {{ armor.armor }}</td>
+                </tr>
+                {% endfor %}
+                {% endif %}
+                <th class="text-center" colspan="3">Outros Itens</th>
+                {% for item in character.itens.all %}
+                <tr>
+                    <td class="text-left" colspan="3">{{ item.name }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </div>
+</div>

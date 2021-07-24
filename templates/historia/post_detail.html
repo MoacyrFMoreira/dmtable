@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}{{ post.title }}{% endblock title %}
+
+{% block content %}
+
+    <div class="container my-3">
+        <h1 class="font-weight-bold">{{ post.title }}</h1>
+        <h6>{{ post.date }}</h6>
+        <p class="text-justify">{{ post.body }}</p>
+        {% if post.record %}
+            <p><a href="/media/{{post.record}}" >Gravação</a></p>
+        {% endif %}
+
+{% endblock content %}
+{% block dm_only %}
+        {% if post.dm_only %}
+            <h4>Segredos:</h4>
+            <p class="text-justify">{{ post.dm_only }}</p>
+        {% endif %}
+{% endblock dm_only %}
+</div>

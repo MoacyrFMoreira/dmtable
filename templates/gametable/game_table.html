@@ -1,0 +1,138 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load char_tags %}
+
+{% block content %}
+
+<div class="container my-3 text-center">
+    <div class="row">
+        <div class="col-lg-3">
+        {% for item in game %}
+            {% if item.type == 1 %}
+                <div class="card-deck mb-3">
+                    <div class="card mx-0 justify-content-end">
+                        <a class="text-decoration-none text-dark" href="{{ item.char.get_absolute_url }}">
+                            {% if item.char.image %}
+                                <img class="card-img-top img-fluid" src="/media/{{item.char.image}}" >
+                            {% else %}
+                                <img class="card-img-top" src="{% static 'images/no_image.jpg' %}" alt="">
+                            {% endif %}
+                            <div class="card-footer d-flex flex-column  align-items-center">
+                                <h6 class="card-subtitle mb-0 text-muted">
+                                    {% if item.char.short_name == "" %} {{ item.char.name }} {% else %} {{ item.char.short_name }} {% endif %}
+                                </h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card mx-0">
+                        <div class="card-body pl-2 pr-0 py-1">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item text-left small font-weight-bold px-0 py-1">F: {% numbers_to_bullets item.char.rage 10 %}</li>
+                                <li class="list-group-item text-left small font-weight-bold px-0 py-1">G: {% numbers_to_bullets item.char.gnosis 10 %}</li>
+                                <li class="list-group-item text-left small font-weight-bold px-0 py-1">V: {% numbers_to_bullets item.char.willpower 10 %}</li>
+                                <li class="list-group-item text-left small font-weight-bold px-0 py-1"></li>
+                            </ul>
+                        </div>
+                        <h6 class="card-body text-center px-0 py-1 my-1">
+                            &#128420;: {{ item.char.health }}
+                            &#127922;: {{ item.dices }}
+                        </h6>
+                        <form action="{% url 'gametable:roll' item.char.id item.dices %}" method="post">
+                            {% csrf_token %}
+                            <input class="btn btn-success mx-2 mt-0 mb-2" type="submit" value="Rolar!">
+                        </form>
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+        <div class="col-lg-6">
+            <h1 class="font-weight-bold">{{ table.campaign }}</h1>
+            {{table.day}} às {{table.time}}h<br>
+            Dia {{table.moon_day}} da {{ table.get_moon_display }}
+            <div class="card-deck my-3">
+                <div class="card">
+                    <h5 class="card-header">Ação</h5>
+                    <form action="{% url 'gametable:dices' %}" method="post">
+                        {% csrf_token %}
+                        <fieldset {%if not user.is_staff %} disabled {% endif %}>
+                        <div class="form-group">
+                            <div class="row my-3">
+                                <div class="col mx-2">
+                                    {{ form }}
+                                </div>
+                            </div>
+                            <input class="btn btn-primary" type="submit" value="Atualizar">
+                        </div>
+                        </fieldset>
+                    </form>
+                    <div id="auto-update">
+                    <footer class="blockquote-footer text-left mx-3"><cite title="Source Title">{{ table.rolls|linebreaks }}</cite></footer>
+                    </div>
+                </div>
+            </div>
+            <div class="card-deck mb-3">
+                <div class="card" style="width: 18rem;">
+                    <p class="card-text">{% if table.notes %}{{ table.notes|linebreaks }}{% else %}---{% endif %}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+        {% for item in game %}
+            {% if item.type == 2 %}
+            <div class="card-deck mb-3">
+                <div class="card mx-0">
+                    <div class="card-body pl-2 pr-0 py-1">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item text-left small font-weight-bold px-0 py-1">F: {% numbers_to_bullets item.char.rage 10 %}</li>
+                            <li class="list-group-item text-left small font-weight-bold px-0 py-1">G: {% numbers_to_bullets item.char.gnosis 10 %}</li>
+                            <li class="list-group-item text-left small font-weight-bold px-0 py-1">V: {% numbers_to_bullets item.char.willpower 10 %}</li>
+                            <li class="list-group-item text-left small font-weight-bold px-0 py-1"></li>
+                        </ul>
+                    </div>
+                    <h6 class="card-body text-center px-0 py-1 my-1">
+                        &#128420;: {{ item.char.health }}
+                        &#127922;: {{ item.dices }}
+                    </h6>
+                    <form action="{% url 'gametable:roll' item.char.id item.dices %}" method="post">
+                        {% csrf_token %}
+                        <input class="btn btn-success mx-2 mt-0 mb-2" type="submit" value="Rolar!">
+                    </form>
+                </div>
+                <div class="card mx-0 justify-content-end">
+                    <a class="text-decoration-none text-dark" href="{{ item.char.get_absolute_url }}">
+                        {% if item.char.image %}
+                            <img class="card-img-top img-fluid" src="/media/{{item.char.image}}" >
+                        {% else %}
+                            <img class="card-img-top" src="{% static 'images/no_image.jpg' %}" alt="">
+                        {% endif %}
+                        <div class="card-footer d-flex flex-column  align-items-center">
+                            <h6 class="card-subtitle mb-0 text-muted">
+                                {% if item.char.short_name == "" %} {{ item.char.name }} {% else %} {{ item.char.short_name }} {% endif %}
+                            </h6>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        {% endif %}
+        {% endfor %}        
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+{% block dm_only %}
+
+<div class="container my-3 text-center">
+    <div class="row">
+        <div class="col-lg-12">
+            <p class="text-center">{{ table.dm_only|linebreaks }}</p>
+        </div>
+    </div>
+</div>
+
+{% endblock dm_only %}
+
+{% block script %}
+    
+{% endblock script %}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}História{% endblock title %}
+
+{% block content %}
+
+    <div class="container my-3">
+    {% for post in post_list %}
+        <a class="text-decoration-none" href="{{ post.get_absolute_url }}">
+            <h2 class="font-weight-bold">{{ post.title }}</h2>
+        </a>
+        <p>{{ post.body|linebreaks|truncatewords:10 }}</p>
+    {% endfor %}
+    </div>
+    
+{% endblock content %}
